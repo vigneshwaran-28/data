@@ -1,0 +1,24 @@
+
+done -public acount,private account need to mention in profile,activestatus should be mentioned in personal,mention,follow table
+comment content
+post and reel are same and post and reel should be checked whether it is add
+ad post , ad story
+stickers emoji audio both in keyboard and story
+no need of two fact auth
+all story should be saved and should be fetched based on timestamp
+group chat
+saved table should be changed
+music need to be kept in separate table
+mention is in two way one in public and one in private it is based on posts
+
+
+
+
+/*
+
+pending
+Act1->Using MySql with node js
+
+*/
+
+

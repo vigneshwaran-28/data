@@ -1,0 +1,158 @@
+table profile{
+  userName varchar [not null,unique]
+  userId int [pk,increment]
+  profilePhotoUrl varchar 
+  postCount int
+  followersCount int
+  followingCount int
+  publicType boolean
+  bio varchar
+}
+
+table post{
+  postId int [pk,increment]
+  userId int [not null,ref: > profile.userId] 
+  urlLink varchar
+  caption varchar
+  music varchar [ref: > music.musicLink]
+  likes int 
+  commentId int [ref: > comments.commentId]
+  hashTagId int
+  tags varchar
+  saved boolean
+  time timestamp
+}
+
+table hashTag{
+  hashTagId int [ref: > post.hashTagId]
+  postId int [ref: > post.postId]
+  content varchar
+}
+
+table likes{
+  postId int [not null,unique,ref: > post.postId] 
+  likedId int [unique,ref: > post.likes]
+}
+
+table comments{
+  usersId int [ref: > post.userId]
+  postId int [ref: > post.postId ] 
+  commentId int [ref: > post.postId]
+  replyId int  [ref: > comments.commentId]
+  likes int [default:0,increment,ref: > comments.commentId]
+  time timestamp
+}
+
+table savedPost{
+  postId int [pk,unique,ref: > post.postId]
+  userId int [pk,unique,ref: > post.userId]
+}
+
+table tagId{
+  userId int [unique,not null]
+  postId int [ref: > post.postId]
+  tagId int [unique]
+}
+
+table follow{
+  followerId int [ref: > profile.userId]
+  followingId int [ref: > profile.userId,ref: > hashTag.hashTagId]
+}
+
+table message{
+  fromId int [unique,not null,ref: > profile.userId]
+  toId int 
+  content varchar
+  time timestamp
+  grpMessage boolean
+}
+
+table group{
+  groupId int [ref: > message.toId]
+  userId int [ref: > message.fromId]
+  content varchar [ref: > message.content]
+  time timestamp
+}
+
+table archieve{
+  storyId int [pk]
+  userId int [not null,ref: > profile.userId]
+  music varchar [ref: > music.musicLink]
+  likes int
+  replyId int
+  viewerId int
+  time timestamp
+}
+
+table closeFriends{
+  userId int [ref: > profile.userId]
+  frndsId int [pk]
+}
+
+table highlights{
+  userId int [ref: > profile.userId]
+  storyId int [pk,ref: > archieve.storyId]
+  caption varchar
+  time timestamp
+}
+
+
+table userDetails{
+  userId int [ref: > profile.userId]
+  userName varchar [unique,not null]
+  email varchar [pk]
+  mobNum bigint [pk]
+  password varchar [not null]
+  gender varchar
+  birthday date
+  activeStatus boolean
+  loginTime timestamp
+  location varchar
+  authenticateType varchar
+}
+
+table limits{
+  userId int [ref: > profile.userId]
+  durationOfLimit timestamp
+}
+
+table mentions{
+  mentionId int
+  postId int [ref: > post.postId]
+  userId int [ref: > post.userId]
+}
+
+table history{
+  details varchar [ref: > profile.userId]
+  time timestamp
+}
+
+table favourites{
+  userId int [ref: > profile.userId]
+  targetId int [pk]
+}
+
+table ad{
+  adId int [ref: > post.userId,ref: > archieve.storyId]
+  urlLink varchar
+  musicLink varchar [ref: > music.musicLink]
+}
+
+table music{
+  musicLink varchar 
+}
+
+table stickers{
+  stikerId int [ref: > post.postId,ref: > archieve.storyId]
+  urlLink varchar
+}
+
+table emoji{
+  emojiId int [ref: > post.postId,ref: > archieve.storyId]
+  urlLink varchar
+}
+
+
+
+
+

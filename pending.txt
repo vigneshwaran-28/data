@@ -1,0 +1,17 @@
+
+Need to finish postgresql
+need to learn orm
+need to start express
+need to ready the file structure
+need to finish the api for insta
+
+also refer notes from mobile
+
+
+
+
+Questions
+put and patch in node
+
+
+

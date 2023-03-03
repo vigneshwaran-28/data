@@ -1,0 +1,123 @@
+
+Domains related to IT
+
+1. E-commerce
+
+    =>A/B testing
+        * A/B testing – otherwise known as split testing – is the method of testing two different 
+    variables on a web page in order to see which one performs better.
+
+    => Comparison Shopping engines
+        * also known as price comparison websites – are websites that consumers can use to browse the 
+    same product sold by multiple retailers.
+
+    => Content management system (CMS)
+        * A content management system is a software that allows ecommerce companies to edit, manage, 
+    and publish the contents of their online store. This is typically the store’s product catalogue, 
+    but can also involve other forms of digital content or imagery, too.
+   
+    => Average order value (AOV)
+        * Average order value is a metric that measures the average amount that customers spend on a 
+    transaction with a retailer. It is calculated by dividing total revenue made during a certain 
+    time-period by the number of orders during the same time-period.
+
+    => Bundling
+        * Bundling is a sales technique that involves the sale of multiple products as a package deal, 
+    usually at a lower price than if the items were to be sold individually. Bundling can be an 
+    effective way to increase average order value.
+
+
+2. Banking
+
+    => Collateral 
+        * Any security provided to the bank in exchange for a loan is known as collateral. A 
+    collateral can be in the form of land, gold, etc. This is called a secured loan and is less risky 
+    than an unsecured loan for the lender. In case of secured loans, the lender may auction off the 
+    collateral if the borrower fails to pay off his/her loan.
+
+    => Balloon Mortgage
+        * It is a type of loan that allows borrowers to make low payments in the initial period, but 
+    repayment of the balance amount in a lump sum at maturity. The last payment becomes Balloon 
+    payment because of a higher amount.
+
+    => Blockchain System
+        * It is a system to record information in a difficult way to prevent hacking and cheating of 
+    the system. It uses a digital ledger that is distributed across a number of networks. As a result, 
+    the data is available in sections across multiple locations making it difficult to hack.
+
+    => Skimming
+        * It is an act to steal the customer’s personal information. It is done by using a magnetic 
+    stripe of the card. This is illegal and comes under cybercrime.
+
+    => Credit Rating
+        * It is a system to recognize an individual’s ability to pay back the loan according to his 
+    past dealings and transactions.
+
+
+3. Health Care
+
+    => Personal health information (PHI) - 
+        * medical history, laboratory results, insurance info and other data that a healthcare professional 
+    stores to identify an individual and determine appropriate care.
+
+    => Virtual visits 
+        * a model of healthcare services provision that is based on remote consultations through video 
+    or voice connection.
+
+    => Bar Code Administration
+        * A barcode system that works much like those in retail, except that a caregiver uses a 
+    handheld reader to verify the patient and medication to provide extra security against dosing 
+    the wrong medication or amount, or getting the wrong patient.
+
+    => BLOB Storage Server
+        * Stands for Binary Large Object. A physical server that functions as a repository for large 
+    amounts of data, usually media files such as scanned images. An EMR can display the images without 
+    needing to be the source of storage
+
+    => Index (Database Reference)
+        * A database structure that facilitates quick retrieval of data from a database. In more 
+    simple terms, may refer to a unique identifier for every item in a table. For example, a database 
+    table of patients may have a unique column value that serves to index the values.
+
+
+
+4. Booking Portal
+
+    => Invoice 
+        * It is a commercial document between a buyer and seller with a timestamp that itemizes and 
+    records a commercial transaction. 
+
+    => Mode of Payment
+        * There are several ways in which an individual or business can make a payment such as COD 
+    (cash or delivery), credit/debit card, bank transfers, eWallet, etc. for a product or service 
+    which is termed as ‘mode of payment’. 
+
+    => Real time GPS
+        G* lobal positioning system (GPS) gives the location of an object (person or vehicle) using 
+    cellular wireless or satellite communication.
+
+
+5. Gaming Industry
+
+    => Baking
+        * A method of preprocessing performed on game assets and data to ensure they load and perform 
+    well in real-time and do not slow down gameplay due to requiring a lot of processor or GPU capacity. 
+
+    => Beta
+        * A game version that contains all major features and assets. This version of a game contains 
+    no major bugs and is on its way to code release. Beta releases are occasionally given a limited 
+    release to the public for bug reporting and critical feedback.
+
+    => Prototyping
+        * Creating different early versions of a game to explore different mechanics and features to 
+    decide which will be best for the full game.
+
+    => Clipping
+        * The process of predefining certain areas in a game in which rendering occurs, which optimizes
+    game performance in those selected areas.
+
+    => Playtesting
+        * Playing through each new build of a game in order to find bugs, ensure gameplay flow, and 
+    explore potential opportunities for improvement.
+
+
